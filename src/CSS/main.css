@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700,400");
+body, html {
+  min-width: 960px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: white; }
+
+*.text-color-white {
+  color: white; }
+*.text-color-black {
+  color: black; }
+*.text-color-blue {
+  color: #181854; }
+*.text-weight-bold {
+  font-weight: bold; }
+*.background-blue {
+  background-color: #181854; }
+
+.countdown {
+  box-sizing: border-box; }
+  .countdown li {
+    display: inline-block;
+    font-size: 1em;
+    padding: 0.5em;
+    list-style-type: none; }
+  .countdown li span {
+    padding: 15px 15px 15px 15px;
+    display: block; }
+  .countdown.box.border-black {
+    border-color: black; }
+  .countdown.box.border-blue {
+    border-color: #181854; }
+  .countdown.box li span {
+    border: 3px solid;
+    border-radius: 5px; }
+
+.main #main_text_countdown {
+  margin-top: 250px;
+  height: 100%;
+  width: 100%; }
+.main #main_countdown {
+  margin-top: 180px;
+  background-color: #181854; }
+  .main #main_countdown li span {
+    padding: 20px;
+    margin: 10px;
+    font-size: 2.5em;
+    font-weight: bold; }
+
+.calculator {
+  padding: 10px; }
+  .calculator .sub-title {
+    font-size: 1.5em; }
+
+#calculatorContainer {
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+#impressum {
+  margin-top: 80px; }
+  #impressum .row {
+    padding-right: 25px;
+    padding-left: 25px; }
+
+#msa, #quali {
+  margin-top: 25px;
+  font-size: 1.20em; }
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.container-fluid {
+  padding: 60px 0; }
+
+.row {
+  margin-right: 15px; }
+
+.selector-for-some-widget {
+  box-sizing: content-box; }
+
+/*# sourceMappingURL=main.css.map */
