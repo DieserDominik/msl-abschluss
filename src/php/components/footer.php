@@ -1,11 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Domin
- * Date: 08.03.2019
- * Time: 12:31
- */
-?>
+<?php include("../basic.php"); ?>
 
 <!-- Footer -->
 <footer class="text-color-black">

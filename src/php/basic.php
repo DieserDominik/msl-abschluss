@@ -6,6 +6,8 @@
  * Time: 11:51
  */
 
+header ("Cache-Control: max-age=200 ");
+
 function basicTest() {
     echo "Test";
 }

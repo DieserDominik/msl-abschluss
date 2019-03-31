@@ -21,7 +21,7 @@ function calcSum(){
 
     // write current sum in
     $('#input_sum').val(counter);
-    var result = counter/18;
+    let result = counter/18;
 
     $('#input_result').val(result.toFixed(2));
 

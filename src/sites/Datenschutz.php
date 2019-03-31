@@ -22,9 +22,29 @@
 </head>
 <body>
 
-<section class="main text-color-blue">
-    <?php require_once("../php/components/header.php") ?>
+<?php require_once("../php/components/header.php") ?>
 
+<noscript>
+    <section id="no-script" style="margin-top: 250px;">
+        <div class="container">
+            <div class="col-md-auto center-text">
+                <div class="text-center">
+                    <h1 style="color: red;">
+                        Um den vollen Funktionsumfang dieser Webseite zu erfahren, benötigen Sie JavaScript.
+                    </h1>
+
+                    <p style="color: black;">
+                        <a href="https://www.enable-javascript.com/de/">
+                            Hier finden Sie die Anleitung wie Sie JavaScript in Ihrem Browser einschalten.
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</noscript>
+
+<section class="main text-color-blue">
     <div class="container" style="margin-top: 250px;">
         <div class="row">
             <div class="col-md text-center">

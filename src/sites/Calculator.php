@@ -18,10 +18,29 @@
 </head>
 <body>
 
-<section class="main">
-    <!-- Navbar -->
-    <?php require_once("../php/components/header.php") ?>
+<?php require_once("../php/components/header.php") ?>
 
+<noscript>
+    <section id="no-script" style="margin-top: 250px;">
+        <div class="container">
+            <div class="col-md-auto center-text">
+                <div class="text-center">
+                    <h1 style="color: red;">
+                        Um den vollen Funktionsumfang dieser Webseite zu erfahren, benötigen Sie JavaScript.
+                    </h1>
+
+                    <p style="color: black;">
+                        <a href="https://www.enable-javascript.com/de/">
+                            Hier finden Sie die Anleitung wie Sie JavaScript in Ihrem Browser einschalten.
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</noscript>
+
+<section class="main">
     <div class="container" id="main_text_countdown">
         <div class="col-md-auto text-center">
             <div class="text-center">

@@ -1,15 +1,8 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Domin
- * Date: 08.03.2019
- * Time: 12:31
- */
-?>
+<?php include("../basic.php"); ?>
 
 <!-- Navbar -->
 <section id="header">
-    <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-sm fixed-top" id="navbar" style="background-color: #181854;">
         <a class="navbar-brand" href="http://ms-landau.de" target="_blank"><img src="/assets/msl_logo.png" width="65" alt="MSL-HOMEPAGE"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -19,13 +12,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/index.php">Startseite</a>
+                    <a class="nav-link" style="color: white;" href="/index.php">Startseite</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/sites/Calculator.php">Qualirechner</a>
+                    <a class="nav-link" style="color: white;" href="/sites/Calculator.php">Qualirechner</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="http://ms-landau.de/termine.html">Termine</a>
+                    <a class="nav-link" style="color: white;" href="http://ms-landau.de/termine.html">Termine</a>
                 </li>
             </ul>
         </div>
